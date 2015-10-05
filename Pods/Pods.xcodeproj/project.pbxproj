@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A8792415BC35E53686C986ECF3C04B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7027DC123497272DEE098E0AA5AF0C9 /* Foundation.framework */; };
+		30112778EC78940B1BD1469151ED9ACA /* jconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = C8A28234EB382CE99BEF1D50083FB5A2 /* jconfig.h */; };
+		54DBC566087E49E808EF699720947F23 /* jmorecfg.h in Headers */ = {isa = PBXBuildFile; fileRef = 37E2925FDFC6465239BF0FD2E07D820E /* jmorecfg.h */; };
+		61D2BB66EF3ACF246D5A78CF375AEEB6 /* DFJPEGTurboImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA9BEA4DC9B76E4DA31F431906164D8 /* DFJPEGTurboImageDecoder.m */; };
+		9B850ED0C9DB1B70451ABD2B9C23EAA9 /* DFJPEGTurbo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CC234DF2FA1A92761F6E560E301A0D /* DFJPEGTurbo-dummy.m */; };
+		B31B29219DB4152F665C603BB6F6D2AF /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FE7BBA618BE7D451E9C2AEF7A7A3BC /* Pods-dummy.m */; };
+		B36752645A31C29C483025DCDAB59183 /* jerror.h in Headers */ = {isa = PBXBuildFile; fileRef = DE7996B7F410A5EF6F09AC0129B49B25 /* jerror.h */; };
+		BF5822276BB265C40CAF55CF6F4FEA39 /* jpeglib.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C29A78FECD565526CB5C4DDEC29CF3E /* jpeglib.h */; };
+		C9E69DD8858AF043EF305B089F8243E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7027DC123497272DEE098E0AA5AF0C9 /* Foundation.framework */; };
+		DB633317B31E7046E42C41D63AE423DE /* turbojpeg.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DBEFEDC59C7CB74AE9C46F8E1442286 /* turbojpeg.h */; };
+		DBCF108C1830C0D593C4FF8879E02AEB /* DFJPEGTurbo.h in Headers */ = {isa = PBXBuildFile; fileRef = B95B1C06343131E606221B3A393998BC /* DFJPEGTurbo.h */; };
+		EE4D83620001C2D1907BD15E6F934810 /* DFJPEGTurboImageDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 13F294B4C6CD17F46DED67EFB936DB81 /* DFJPEGTurboImageDecoder.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAEBDD8D8A94BB5F2F34122BEB0C7849 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F8A26219F6BD5F48812F5B2601BCE8C;
+			remoteInfo = DFJPEGTurbo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10CC234DF2FA1A92761F6E560E301A0D /* DFJPEGTurbo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DFJPEGTurbo-dummy.m"; sourceTree = "<group>"; };
+		13F294B4C6CD17F46DED67EFB936DB81 /* DFJPEGTurboImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DFJPEGTurboImageDecoder.h; path = DFJPEGTurbo/DFJPEGTurboImageDecoder.h; sourceTree = "<group>"; };
+		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		179B6E23AD05E3DB5D22AF93B7C5699E /* DFJPEGTurbo-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DFJPEGTurbo-Private.xcconfig"; sourceTree = "<group>"; };
+		1DBEFEDC59C7CB74AE9C46F8E1442286 /* turbojpeg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = turbojpeg.h; path = DFJPEGTurbo/libturbojpeg/turbojpeg.h; sourceTree = "<group>"; };
+		2D070A315EB9A04B33E08A7C5DBE8C30 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		37E2925FDFC6465239BF0FD2E07D820E /* jmorecfg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jmorecfg.h; path = DFJPEGTurbo/libturbojpeg/jmorecfg.h; sourceTree = "<group>"; };
+		39D56F1EA6CCF8FA6B760367F2EDA742 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		3C29A78FECD565526CB5C4DDEC29CF3E /* jpeglib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jpeglib.h; path = DFJPEGTurbo/libturbojpeg/jpeglib.h; sourceTree = "<group>"; };
+		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		69FE7BBA618BE7D451E9C2AEF7A7A3BC /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		6E3021187A4E6E8540D14B1B58222A10 /* libturbojpeg.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libturbojpeg.a; path = DFJPEGTurbo/libturbojpeg/libturbojpeg.a; sourceTree = "<group>"; };
+		A2F6A7981B9A8A44733A06D925E0C14F /* DFJPEGTurbo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DFJPEGTurbo-prefix.pch"; sourceTree = "<group>"; };
+		B7027DC123497272DEE098E0AA5AF0C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B95B1C06343131E606221B3A393998BC /* DFJPEGTurbo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DFJPEGTurbo.h; path = DFJPEGTurbo/DFJPEGTurbo.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		C8A28234EB382CE99BEF1D50083FB5A2 /* jconfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jconfig.h; path = DFJPEGTurbo/libturbojpeg/jconfig.h; sourceTree = "<group>"; };
+		CC7EAAF3AB44B19FC841116D74A04C9B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA9BEA4DC9B76E4DA31F431906164D8 /* DFJPEGTurboImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DFJPEGTurboImageDecoder.m; path = DFJPEGTurbo/DFJPEGTurboImageDecoder.m; sourceTree = "<group>"; };
+		DE7996B7F410A5EF6F09AC0129B49B25 /* jerror.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jerror.h; path = DFJPEGTurbo/libturbojpeg/jerror.h; sourceTree = "<group>"; };
+		E747C5804A8225B6DE81BA22B12EDAF5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		EE4052DF32D11ADAB6EFD656D6A42A02 /* DFJPEGTurbo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DFJPEGTurbo.xcconfig; sourceTree = "<group>"; };
+		F35B356ADC8B78B42BAB54CC918DE045 /* libDFJPEGTurbo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDFJPEGTurbo.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62212F08DC084E583C156F0F7097915E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8792415BC35E53686C986ECF3C04B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43DD20951768A0B85F05D2F5D92EC9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E69DD8858AF043EF305B089F8243E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23CA093C1CFD1A95BC113210BEC4E54C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE4052DF32D11ADAB6EFD656D6A42A02 /* DFJPEGTurbo.xcconfig */,
+				179B6E23AD05E3DB5D22AF93B7C5699E /* DFJPEGTurbo-Private.xcconfig */,
+				10CC234DF2FA1A92761F6E560E301A0D /* DFJPEGTurbo-dummy.m */,
+				A2F6A7981B9A8A44733A06D925E0C14F /* DFJPEGTurbo-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DFJPEGTurbo";
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B7027DC123497272DEE098E0AA5AF0C9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C8AB11EC6BF829B9526DF1B246DD4F60 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
+				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
+				69FE7BBA618BE7D451E9C2AEF7A7A3BC /* Pods-dummy.m */,
+				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
+				E747C5804A8225B6DE81BA22B12EDAF5 /* Pods.debug.xcconfig */,
+				2D070A315EB9A04B33E08A7C5DBE8C30 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3FCB6C8A936F73F25A44BDFD214B44F /* DFJPEGTurbo */ = {
+			isa = PBXGroup;
+			children = (
+				B95B1C06343131E606221B3A393998BC /* DFJPEGTurbo.h */,
+				13F294B4C6CD17F46DED67EFB936DB81 /* DFJPEGTurboImageDecoder.h */,
+				CEA9BEA4DC9B76E4DA31F431906164D8 /* DFJPEGTurboImageDecoder.m */,
+				C8A28234EB382CE99BEF1D50083FB5A2 /* jconfig.h */,
+				DE7996B7F410A5EF6F09AC0129B49B25 /* jerror.h */,
+				37E2925FDFC6465239BF0FD2E07D820E /* jmorecfg.h */,
+				3C29A78FECD565526CB5C4DDEC29CF3E /* jpeglib.h */,
+				1DBEFEDC59C7CB74AE9C46F8E1442286 /* turbojpeg.h */,
+				DD61F437BB85C38F18241D7FA7A5F7FD /* Frameworks */,
+				23CA093C1CFD1A95BC113210BEC4E54C /* Support Files */,
+			);
+			path = DFJPEGTurbo;
+			sourceTree = "<group>";
+		};
+		C8AB11EC6BF829B9526DF1B246DD4F60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3FCB6C8A936F73F25A44BDFD214B44F /* DFJPEGTurbo */,
+				E640C77271335FACD8B9BD6D0B4AD097 /* OpenCV */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F35B356ADC8B78B42BAB54CC918DE045 /* libDFJPEGTurbo.a */,
+				CC7EAAF3AB44B19FC841116D74A04C9B /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DA9AE489D4AF971563515DDA366D1C1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39D56F1EA6CCF8FA6B760367F2EDA742 /* opencv2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD61F437BB85C38F18241D7FA7A5F7FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E3021187A4E6E8540D14B1B58222A10 /* libturbojpeg.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E640C77271335FACD8B9BD6D0B4AD097 /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				DA9AE489D4AF971563515DDA366D1C1D /* Frameworks */,
+			);
+			path = OpenCV;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		66C9E1EB5BCEE0197CEDC45747A9B52A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCF108C1830C0D593C4FF8879E02AEB /* DFJPEGTurbo.h in Headers */,
+				EE4D83620001C2D1907BD15E6F934810 /* DFJPEGTurboImageDecoder.h in Headers */,
+				30112778EC78940B1BD1469151ED9ACA /* jconfig.h in Headers */,
+				B36752645A31C29C483025DCDAB59183 /* jerror.h in Headers */,
+				54DBC566087E49E808EF699720947F23 /* jmorecfg.h in Headers */,
+				BF5822276BB265C40CAF55CF6F4FEA39 /* jpeglib.h in Headers */,
+				DB633317B31E7046E42C41D63AE423DE /* turbojpeg.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06D1AC6F693F7384243FCC7E86E10197 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 086F6D74CC947C7EB2F5F2FD9A6200FA /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				36FC26890721B590D2B2959C9818F9E6 /* Sources */,
+				C43DD20951768A0B85F05D2F5D92EC9E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C37A28AB97ABD14A4C1566905CBBAF46 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = CC7EAAF3AB44B19FC841116D74A04C9B /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4F8A26219F6BD5F48812F5B2601BCE8C /* DFJPEGTurbo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0375F246C6F700EAB7006D09487C732 /* Build configuration list for PBXNativeTarget "DFJPEGTurbo" */;
+			buildPhases = (
+				AF296D18AEEDBB2F6EC90CCA966DFCCB /* Sources */,
+				62212F08DC084E583C156F0F7097915E /* Frameworks */,
+				66C9E1EB5BCEE0197CEDC45747A9B52A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DFJPEGTurbo;
+			productName = DFJPEGTurbo;
+			productReference = F35B356ADC8B78B42BAB54CC918DE045 /* libDFJPEGTurbo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F8A26219F6BD5F48812F5B2601BCE8C /* DFJPEGTurbo */,
+				06D1AC6F693F7384243FCC7E86E10197 /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36FC26890721B590D2B2959C9818F9E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31B29219DB4152F665C603BB6F6D2AF /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF296D18AEEDBB2F6EC90CCA966DFCCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B850ED0C9DB1B70451ABD2B9C23EAA9 /* DFJPEGTurbo-dummy.m in Sources */,
+				61D2BB66EF3ACF246D5A78CF375AEEB6 /* DFJPEGTurboImageDecoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C37A28AB97ABD14A4C1566905CBBAF46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DFJPEGTurbo;
+			target = 4F8A26219F6BD5F48812F5B2601BCE8C /* DFJPEGTurbo */;
+			targetProxy = AAEBDD8D8A94BB5F2F34122BEB0C7849 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1BBDC64472316EC08D7C4E783D43C8DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E747C5804A8225B6DE81BA22B12EDAF5 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		28547AA7F6B07EE2ABCF3E66C5BBEE72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D070A315EB9A04B33E08A7C5DBE8C30 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79A77C355EBD2B90E24E2A0BAE2585B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 179B6E23AD05E3DB5D22AF93B7C5699E /* DFJPEGTurbo-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DFJPEGTurbo/DFJPEGTurbo-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		95D0AF8E09B0BB2F577E19D2DC3A0BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 179B6E23AD05E3DB5D22AF93B7C5699E /* DFJPEGTurbo-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DFJPEGTurbo/DFJPEGTurbo-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		086F6D74CC947C7EB2F5F2FD9A6200FA /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BBDC64472316EC08D7C4E783D43C8DF /* Debug */,
+				28547AA7F6B07EE2ABCF3E66C5BBEE72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0375F246C6F700EAB7006D09487C732 /* Build configuration list for PBXNativeTarget "DFJPEGTurbo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A77C355EBD2B90E24E2A0BAE2585B8 /* Debug */,
+				95D0AF8E09B0BB2F577E19D2DC3A0BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
